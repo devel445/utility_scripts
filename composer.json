@@ -1,0 +1,19 @@
+{
+    "name": "devel445/utility_scripts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "hitechwebsolutions.india@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+	    "PowernLib\\":    "lib"
+	}
+    },
+    "require": {
+        "rmccue/requests": "^1.6",
+        "predis/predis": "^1.1"
+    }
+}
